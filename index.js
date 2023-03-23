@@ -19,7 +19,7 @@ function save() {
     // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
     let saveCount = count
     // 3. Render the variable in the saveEl using innerText
-    saveEl.textContent += count + " - "
+    saveEl.textContent += count + ", "
 
     // NB: Make sure to not delete the existing content of the paragraph
     count = 0

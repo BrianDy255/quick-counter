@@ -32,6 +32,8 @@ button {
     color: white;
     font-weight: bold;
     width: 200px;
+    max-width: 70%;
+    min-width: 70%;
     margin-bottom: 5px;
     border-radius: 5px;
 }
@@ -45,7 +47,7 @@ button {
 }
 
 #save-btn {
-    background: #dde008;
+    background: #ad2240;
 }
 
 #save-el {
